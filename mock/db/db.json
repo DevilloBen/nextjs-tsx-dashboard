@@ -1,0 +1,70 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "todos": [
+    {
+      "id": "1",
+      "title": "กยศ",
+      "expList": "10ปี",
+      "importance": "S",
+      "amount": 3000
+    },
+    {
+      "id": "2",
+      "title": "ค่าบ้านสมุทรสาคร",
+      "expList": "09-01-2566",
+      "importance": "S",
+      "amount": 5500
+    },
+    {
+      "id": "3",
+      "title": "ค่าบ้านนครปฐม",
+      "expList": "5ปี",
+      "importance": "S",
+      "amount": 1500
+    },
+    {
+      "id": "4",
+      "title": "ค่าบ้านกรุงเทพ",
+      "expList": "5ปี",
+      "importance": "S",
+      "amount": 3250
+    },
+    {
+      "id": "5",
+      "title": "ค่าเน็ต",
+      "expList": "1ปี",
+      "importance": "A",
+      "amount": 375
+    },
+    {
+      "id": "6",
+      "title": "ค่าประกัน",
+      "expList": "15-07-2565",
+      "importance": "S",
+      "amount": 1200
+    },
+    {
+      "id": "7",
+      "title": "ค่ารถยนต์",
+      "expList": "3ปี",
+      "importance": "S",
+      "amount": 5200
+    }
+  ]
+}

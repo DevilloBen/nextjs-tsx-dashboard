@@ -11,12 +11,12 @@ const items: MenuItemType[] = [
     link: { href: '/dashboard' },
   },
   {
-    title: 'NDID Maneger',
+    title: 'TodoList Maneger',
     icon: { name: 'keypad-outline' },
     children: [
       {
-        title: 'Test Page',
-        link: { href: '/Ndid/TestApi' },
+        title: 'TodoList',
+        link: { href: '/TodoList/TodoForm' },
       }
     ],
   },

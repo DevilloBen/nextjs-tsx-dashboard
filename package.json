@@ -28,7 +28,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start --port ${PORT-3000}",
-    "export": "yarn build && next export -o _static"
+    "export": "yarn build && next export -o _static",
+    "mock-api": "cd mock && yarn json-server -p 3001 --watch db/db.json"
   },
   "repository": {
     "type": "git",

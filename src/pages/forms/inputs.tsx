@@ -32,6 +32,7 @@ const InputPage = () => {
   const onChangeRadio = (_value: any) => {
     // value will be item value
   };
+  
   return (
     <Layout title="Input">
       <Row>
