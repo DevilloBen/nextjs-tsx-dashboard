@@ -15,11 +15,11 @@ const SEO: React.FC<SEOProps> = ({ description, keywords, title }) => (
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:site" content="" />
-    <meta name="twitter:creator" content="@AhmedElywh" />
+    <meta name="twitter:creator" content="@DevilloBen" />
     <meta name="twitter:image" content="" />
     <meta property="og:image" content="" />
-    <link rel="icon" type="image/png" href="/icons/icon-72x72.png" />
-    <link rel="apple-touch-icon" type="image/png" href="/icons/icon-72x72.png" />
+    <link rel="icon" type="image/png" href="/icons/favicon.ico" />
+    <link rel="apple-touch-icon" type="image/png" href="/icons/favicon.ico" />
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171177495-4"></script>
     <script
       dangerouslySetInnerHTML={{
@@ -43,19 +43,18 @@ export interface SEOProps {
 }
 
 SEO.defaultProps = {
-  description: 'Free admin dashboard template based on Next.Js with @paljs/ui component package',
+  description: 'PTT CMS NDID',
   keywords: [
-    'admin-dashboard',
+    'cms',
     'admin',
     'react',
     'reactjs',
     'dashboard',
-    'dashboard-templates',
-    'themes',
-    'styled-components',
+    'ปตท',
+    'ptt',
+    'ptt ndid',
     'styledcomponents',
     'admin-template',
-    'free-admin-template',
     'react-admin-dashboard',
     'react-admin-panel',
     'react-admin-component',
@@ -64,7 +63,6 @@ SEO.defaultProps = {
     'react-select',
     'react-accordion',
     'react-chat',
-    'react-admin-template',
   ],
 };
 

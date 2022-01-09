@@ -27,7 +27,7 @@ export default function Socials() {
         <a href="https://www.facebook.com/AhmedElywa">
           <EvaIcon name="facebook" />
         </a>
-        <a href="https://twitter.com/AhmedElywh">
+        <a href="https://twitter.com/DevilloBen">
           <EvaIcon name="twitter" />
         </a>
       </div>

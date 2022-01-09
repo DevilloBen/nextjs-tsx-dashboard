@@ -15,7 +15,7 @@ ${({ theme }) => css`
   .auth-layout {
     .main-content {
       padding: 2.5rem;
-      ${breakpointDown('sm')`
+      ${breakpointDown('xs')`
         padding: 0;
       `}
     }

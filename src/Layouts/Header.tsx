@@ -35,6 +35,9 @@ const HeaderStyle = styled.div`
       margin-right: 5px;
     }
   }
+  .up{
+    margin-bottom: 10px;
+  }
 `;
 
 // const Label = styled.span`
@@ -101,7 +104,7 @@ const Header: React.FC<HeaderProps> = (props) => {
     <LayoutHeader fixed>
       <HeaderStyle>
         <Actions
-          size="Medium"
+          size="Large"
           actions={[
             {
               icon: { name: 'menu-2-outline' },
@@ -118,25 +121,26 @@ const Header: React.FC<HeaderProps> = (props) => {
             },
             {
               content: (
-                  <img height="40" src="/icons/logo_PTT_3.png" alt="slack" />
+               <img height="50" src="/icons/logo_PTT_Test.png" alt="pttDigitalLogo" />
               ),
             }
           ]}
         />
+    
         <Actions
           size="Small"
           className="right"
           actions={[
             {
               content: (
-                <a href="https://discord.gg/NRmdvDxsT8" target="_blank" rel="noreferrer">
+                <a href="https://discord.gg/ZhrUXzmd" target="_blank" rel="noreferrer">
                   <img height="20" src="/discord.svg" alt="slack" />
                 </a>
               ),
             },
             {
               icon: 'twitter',
-              url: { href: 'https://twitter.com/AhmedElywh', target: '_blank' },
+              url: { href: 'https://twitter.com/DevilloBen', target: '_blank' },
             },
             {
               content: (
